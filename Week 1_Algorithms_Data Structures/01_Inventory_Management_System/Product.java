@@ -36,6 +36,6 @@ public class Product {
     }
 
     public String toString() {
-        return "[" + productId + "] " + productName + " | Qty: " + quantity + " | Price: ₹" + price;
+        return "[" + productId + "] " + productName + " | Qty: " + quantity + " | Price: Rs." + price;
     }
 }
