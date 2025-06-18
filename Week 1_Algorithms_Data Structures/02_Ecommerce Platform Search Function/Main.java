@@ -7,7 +7,7 @@ public class Main {
             new Product(104, "Watch", "Accessories")
         };
 
-        System.out.println("🔍 Linear Search: 'Bag'");
+        System.out.println(" Linear Search: 'Bag'");
         Product foundLinear = SearchAlgorithms.linearSearch(products, "Bag");
         if (foundLinear != null)
             System.out.println("Found: " + foundLinear.productName + " - " + foundLinear.category);
@@ -17,7 +17,7 @@ public class Main {
         // Sort for binary search
         SearchAlgorithms.sortByName(products);
 
-        System.out.println("\n🔍 Binary Search: 'Watch'");
+        System.out.println("\n Binary Search: 'Watch'");
         Product foundBinary = SearchAlgorithms.binarySearch(products, "Watch");
         if (foundBinary != null)
             System.out.println("Found: " + foundBinary.productName + " - " + foundBinary.category);
