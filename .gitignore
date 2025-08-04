@@ -2,3 +2,7 @@
 log/
 /Exercise1/output/
 /Exercise2/
+*.*~
+*.orig
+*.bak
+*.rej
