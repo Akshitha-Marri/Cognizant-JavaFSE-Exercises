@@ -2,6 +2,7 @@
 log/
 /Exercise1/output/
 /Exercise2/
+/Exercise3/output/
 *.*~
 *.orig
 *.bak
