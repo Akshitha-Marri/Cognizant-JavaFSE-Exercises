@@ -1,12 +1,6 @@
-cd ..
-echo "*.log" > .gitignore
-echo "log/" >> .gitignore
-echo "/Exercise1/output/" >> .gitignore
-echo "/Exercise2/" >> .gitignore
-echo "/Exercise3/output/" >> .gitignore
-echo "*.*~" >> .gitignore
-echo "*.orig" >> .gitignore
-echo "*.bak" >> .gitignore
-echo "*.rej" >> .gitignore
-git add .gitignore
-git commit -m "Updated .gitignore to ignore output and backup files"
+*.log
+log/
+Exercise1/output/
+Exercise2/
+Exercise3/output/
+Exercise4/output/
